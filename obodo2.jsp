@@ -215,7 +215,7 @@ if(request.getParameter("reason_for_removal") != null){
   // Load postgresql Driver. The jar file was downloaded and placed in the lib folder of tomcat server
   
   try {
-  Class.forName("org.postgresql.Driver"); 
+  Class.forName("org.postgresql.Driver");  
   }
   catch(Exception e){out.println( e.getClass().getName()+": "+ e.getMessage() );
     }
