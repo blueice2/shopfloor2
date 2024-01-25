@@ -843,7 +843,7 @@ let month = months[dateObj.getMonth()];
 	
 	  
 	  // New location to be redirected
-         String site = new String("http://13.53.61.254:8080/fumi/");
+         String site = new String("http://15.45.21.246:8080/fumi/");
          response.setStatus(response.SC_MOVED_TEMPORARILY);
          response.setHeader("Location", site); 
 	  
